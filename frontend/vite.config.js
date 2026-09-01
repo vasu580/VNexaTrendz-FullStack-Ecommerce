@@ -7,7 +7,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/api': {
-        target: 'http://localhost:8088',
+        target: 'https://vnexatrendz-fullstack-ecommerce.onrender.com',
         changeOrigin: true,
       }
     }
