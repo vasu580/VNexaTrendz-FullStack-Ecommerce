@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: 'https://vnexatrendz-fullstack-ecommerce.onrender.com/api',
+  baseURL: '/api',
   headers: {
     'Content-Type': 'application/json',
   },
