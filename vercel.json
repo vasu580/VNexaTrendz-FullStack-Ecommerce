@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://vnexatrendz-fullstack-ecommerce.onrender.com/api/:path*"
+    }
+  ]
+}
